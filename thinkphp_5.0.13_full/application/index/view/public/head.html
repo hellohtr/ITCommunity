@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="__STATIC__/index/bootstrap/css/bootstrap.min.css">
+    <script src="__STATIC__/index/jquery/jquery-3.2.1.min.js"></script>
+    <script src="__STATIC__/index/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="__STATIC__/index/css/index.css">
+    <meta charset="UTF-8">
+    <title>IT社区</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<section class="header">
+    <div class="container">
+        <img src="__STATIC__/index/img/logo.gif" alt="">
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top" style="background-color: #3e8f3e" >
+        <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+        <div class="container">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav ">
+                    <li  role="presentation" ><a href="{:url('index/index/index')}" style="color: #ffffff;">主页</a></li>
+                    <li role="presentation"><a href="#" style="color: #ffffff;">VUE面试通</a></li>
+                    <li role="presentation"><a href="#" style="color: #ffffff;">前端面试通</a></li>
+                    <li role="presentation"><a href="#" style="color: #ffffff;">大前端知识</a></li>
+                    <li role="presentation"><a href="#" style="color: #ffffff;">社区</a></li>
+                </ul>
+                <ul class="nav navbar-right navbar-nav ">
+
+                    <li><a href="{:url('user/login')}" style="color: #ffffff;">登录</a></li>
+                    <li><a href="{:url('user/logout')}" style="color: #ffffff;">注册</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</section>
